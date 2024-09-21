@@ -1,0 +1,25 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.alegreya-font {
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar{
+  height: 8px !important;
+  width: 12px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #262626;
+  padding: 2px;
+}
+
+
+.custom-scrollbar::-webkit-scrollbar-thumb{
+background-color: #525252;
+border-radius: 10px;
+border: 2px solid transparent;
+background-clip: padding-box;
+}
